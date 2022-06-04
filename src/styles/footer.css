@@ -1,0 +1,20 @@
+.footer-services{
+    list-style: none;
+}
+
+.footer-services li{
+    transition: all 0.3s linear;
+}
+
+.footer-services li:hover{
+    transform: translateX(10px);
+}
+
+.footer-social-icons{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.footer-social-icons:hover{
+    transform: scale(1.1);
+}

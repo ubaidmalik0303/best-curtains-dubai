@@ -1,0 +1,19 @@
+.services-card{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.services-card:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+.services-card > div{
+    width: 100%;
+    padding: 10px;
+}
